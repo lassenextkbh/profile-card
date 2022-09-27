@@ -175,7 +175,7 @@ body::before {
     gap: 1.5rem;
   }
 }
-.profile-card__actions > button {
+.profile-card__actions a > button {
   font-weight: bold;
   font-size: 22px;
   padding: 15px 0;
@@ -187,33 +187,33 @@ body::before {
   transition: all 0.2s;
 }
 @media screen and (max-width: 768px) {
-  .profile-card__actions > button {
+  .profile-card__actions a > button {
     min-width: 170px;
   }
 }
 @media screen and (max-width: 576px) {
-  .profile-card__actions > button {
+  .profile-card__actions a > button {
     min-width: inherit;
     width: 100%;
     max-width: 350px;
   }
 }
 @media screen and (min-width: 576px) {
-  .profile-card__actions > button:hover {
+  .profile-card__actions a > button:hover {
     transform: translateY(-5px);
   }
 }
-.profile-card__actions > button.blue {
+.profile-card__actions a > button.blue {
   background: linear-gradient(45deg, #1da1f2, #0e71c8);
   box-shadow: 0 4px 30px rgba(19, 127, 212, 0.4);
 }
-.profile-card__actions > button.blue:hover {
+.profile-card__actions a > button.blue:hover {
   box-shadow: 0 7px 30px rgba(19, 127, 212, 0.75);
 }
-.profile-card__actions > button.orange {
+.profile-card__actions a > button.orange {
   background: linear-gradient(45deg, #d5135a, #f05924);
   box-shadow: 0 4px 30px rgba(223, 45, 70, 0.35);
 }
-.profile-card__actions > button.orange:hover {
+.profile-card__actions a > button.orange:hover {
   box-shadow: 0 7px 30px rgba(223, 45, 70, 0.75);
 }/*# sourceMappingURL=style.css.map */
